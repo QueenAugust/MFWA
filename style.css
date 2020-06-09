@@ -1,0 +1,26 @@
+img{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+
+body{
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+}
+
+#right {
+    transform: rotate(0.5turn);
+    position: fixed;
+    right: 50px;
+    bottom: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#left {
+    position: fixed;
+    left: 50px;
+    bottom: 50%;
+    width: 50px;
+    height: 50px;
+}
